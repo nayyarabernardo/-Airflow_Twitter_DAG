@@ -6,12 +6,12 @@ import json
 
 class TwitterHook(HttpHook):
 
-    def __init__(self, end_time, start_time, query, conn_id=None): #self padrão conn = conecti id
-        self.end_time = end_time #agr quem roda é que define o parametro de tempo q vai ser usado
+    def __init__(self, end_time, start_time, query, conn_id=None): 
+        self.end_time = end_time 
         self.start_time =  start_time
-        self.query = query #agr vc pode definir qual sua query
-        self.conn_id = conn_id or "twitter_default"  #usando o nome da conexao que criamos
-        super().__init__(http_conn_id=self.conn_id) #super acessa a classe herdada 
+        self.query = query
+        self.conn_id = conn_id or "twitter_default" 
+        super().__init__(http_conn_id=self.conn_id) 
     
     def create_url(self):
         
@@ -28,23 +28,23 @@ class TwitterHook(HttpHook):
 
         return url_raw
     
-    def connect_to_endpoint(self, url, session):  #agr temos que criar uma função para requestes de conexão
-        request = requests.Request("GET", url)  #metodo GET
-        prep = session.prepare_request(request)  #preparrar requests com metodo 
-        self.log.info(f"URL: {url}") #logs para informar url de requisição
-        return self.run_and_check(session, prep, {}) #metodo que existe na classe http hook ja preparado o terceito parametro {} é obrigatorio porem nao precisamos informar qual é o parametro atenção http hook 
+    def connect_to_endpoint(self, url, session): 
+        request = requests.Request("GET", url) 
+        prep = session.prepare_request(request)  
+        self.log.info(f"URL: {url}") 
+        return self.run_and_check(session, prep, {}) 
 
     def paginate(self, url_raw, session):
         
         lista_json_response = []
         #imprimir json
-        response = self.connect_to_endpoint(url_raw, session) #chamar a função anteriror responsavel por salvar
+        response = self.connect_to_endpoint(url_raw, session) 
         json_response = response.json() 
-        lista_json_response.append(json_response)  #inserir os dados agr dentro dessa lista
+        lista_json_response.append(json_response)  
         contador = 1
 
         # paginate lembrado que é para proximas paginas 
-        while "next_token" in json_response.get("meta",{}) and contador<100: #10 o limite de requisições
+        while "next_token" in json_response.get("meta",{}) and contador<100: 
             next_token = json_response['meta']['next_token']
             url = f"{url_raw}&next_token={next_token}"
             response = self.connect_to_endpoint(url, session) 
@@ -54,13 +54,13 @@ class TwitterHook(HttpHook):
 
         return lista_json_response
     
-    def run(self):    #função que engloba todas as outras funções 
-        session = self.get_conn()   #pedir ma sessão, n somos maisresponsaveis por criar essa sessão
+    def run(self):  
+        session = self.get_conn()  
         url_raw = self.create_url()
 
         return self.paginate(url_raw, session)
 
-if __name__ == "__main__":   #ele ta garantindo toda vez que rodar apenas o que ta dentro do ifem 
+if __name__ == "__main__":  
     #montando url
     TIMESTAMP_FORMAT = "%Y-%m-%dT%H:%M:%S.00Z"
 
