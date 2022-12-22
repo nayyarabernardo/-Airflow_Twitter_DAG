@@ -1,0 +1,198 @@
+[2022-12-21 21:37:49,909] {processor.py:153} INFO - Started process (PID=16146) to work on /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:37:49,909] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-12-21 21:37:49,910] {logging_mixin.py:115} INFO - [2022-12-21 21:37:49,910] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:37:49,935] {logging_mixin.py:115} INFO - [2022-12-21 21:37:49,934] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-12-21 21:37:49,935] {logging_mixin.py:115} INFO - [2022-12-21 21:37:49,935] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-12-21 21:37:49,935] {processor.py:653} WARNING - No viable dags retrieved from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:37:49,947] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.044 seconds
+[2022-12-21 21:39:27,655] {processor.py:153} INFO - Started process (PID=16261) to work on /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:39:27,684] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-12-21 21:39:27,686] {logging_mixin.py:115} INFO - [2022-12-21 21:39:27,686] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:39:27,813] {logging_mixin.py:115} INFO - [2022-12-21 21:39:27,812] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-12-21 21:39:27,813] {logging_mixin.py:115} INFO - [2022-12-21 21:39:27,813] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-12-21 21:39:27,813] {processor.py:653} WARNING - No viable dags retrieved from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:39:27,831] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.190 seconds
+[2022-12-21 21:40:17,072] {processor.py:153} INFO - Started process (PID=16327) to work on /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:40:17,074] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-12-21 21:40:17,075] {logging_mixin.py:115} INFO - [2022-12-21 21:40:17,075] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:40:17,106] {logging_mixin.py:115} INFO - [2022-12-21 21:40:17,106] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-12-21 21:40:17,106] {logging_mixin.py:115} INFO - [2022-12-21 21:40:17,106] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-12-21 21:40:17,106] {processor.py:653} WARNING - No viable dags retrieved from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:40:17,120] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.061 seconds
+[2022-12-21 21:41:26,841] {processor.py:153} INFO - Started process (PID=16482) to work on /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:41:26,910] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-12-21 21:41:26,913] {logging_mixin.py:115} INFO - [2022-12-21 21:41:26,913] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:41:26,995] {logging_mixin.py:115} INFO - [2022-12-21 21:41:26,994] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-12-21 21:41:26,995] {logging_mixin.py:115} INFO - [2022-12-21 21:41:26,995] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-12-21 21:41:26,996] {processor.py:653} WARNING - No viable dags retrieved from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:41:27,013] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.188 seconds
+[2022-12-21 21:42:17,483] {processor.py:153} INFO - Started process (PID=16565) to work on /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:42:17,489] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-12-21 21:42:17,493] {logging_mixin.py:115} INFO - [2022-12-21 21:42:17,492] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:42:17,554] {logging_mixin.py:115} INFO - [2022-12-21 21:42:17,553] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-12-21 21:42:17,554] {logging_mixin.py:115} INFO - [2022-12-21 21:42:17,554] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-12-21 21:42:17,555] {processor.py:653} WARNING - No viable dags retrieved from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:42:17,570] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.110 seconds
+[2022-12-21 21:43:25,029] {processor.py:153} INFO - Started process (PID=16654) to work on /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:43:25,046] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-12-21 21:43:25,046] {logging_mixin.py:115} INFO - [2022-12-21 21:43:25,046] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:43:25,065] {logging_mixin.py:115} INFO - [2022-12-21 21:43:25,065] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-12-21 21:43:25,065] {logging_mixin.py:115} INFO - [2022-12-21 21:43:25,065] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-12-21 21:43:25,065] {processor.py:653} WARNING - No viable dags retrieved from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:43:25,079] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.054 seconds
+[2022-12-21 21:44:20,459] {processor.py:153} INFO - Started process (PID=16716) to work on /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:44:20,460] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-12-21 21:44:20,461] {logging_mixin.py:115} INFO - [2022-12-21 21:44:20,461] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:44:20,481] {logging_mixin.py:115} INFO - [2022-12-21 21:44:20,481] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-12-21 21:44:20,482] {logging_mixin.py:115} INFO - [2022-12-21 21:44:20,482] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-12-21 21:44:20,482] {processor.py:653} WARNING - No viable dags retrieved from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:44:20,495] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.039 seconds
+[2022-12-21 21:45:16,196] {processor.py:153} INFO - Started process (PID=16812) to work on /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:45:16,221] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-12-21 21:45:16,223] {logging_mixin.py:115} INFO - [2022-12-21 21:45:16,222] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:45:16,257] {logging_mixin.py:115} INFO - [2022-12-21 21:45:16,257] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-12-21 21:45:16,258] {logging_mixin.py:115} INFO - [2022-12-21 21:45:16,258] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-12-21 21:45:16,258] {processor.py:653} WARNING - No viable dags retrieved from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:45:16,277] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.085 seconds
+[2022-12-21 21:46:15,847] {processor.py:153} INFO - Started process (PID=17061) to work on /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:46:15,868] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-12-21 21:46:15,869] {logging_mixin.py:115} INFO - [2022-12-21 21:46:15,869] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:46:15,890] {logging_mixin.py:115} INFO - [2022-12-21 21:46:15,889] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-12-21 21:46:15,890] {logging_mixin.py:115} INFO - [2022-12-21 21:46:15,890] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-12-21 21:46:15,890] {processor.py:653} WARNING - No viable dags retrieved from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:46:15,906] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.063 seconds
+[2022-12-21 21:47:26,758] {processor.py:153} INFO - Started process (PID=17348) to work on /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:47:26,776] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-12-21 21:47:26,777] {logging_mixin.py:115} INFO - [2022-12-21 21:47:26,777] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:47:26,808] {logging_mixin.py:115} INFO - [2022-12-21 21:47:26,807] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-12-21 21:47:26,808] {logging_mixin.py:115} INFO - [2022-12-21 21:47:26,808] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-12-21 21:47:26,808] {processor.py:653} WARNING - No viable dags retrieved from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:47:26,819] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.069 seconds
+[2022-12-21 21:48:29,273] {processor.py:153} INFO - Started process (PID=17457) to work on /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:48:29,283] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-12-21 21:48:29,286] {logging_mixin.py:115} INFO - [2022-12-21 21:48:29,285] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:48:29,332] {logging_mixin.py:115} INFO - [2022-12-21 21:48:29,331] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-12-21 21:48:29,332] {logging_mixin.py:115} INFO - [2022-12-21 21:48:29,332] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-12-21 21:48:29,332] {processor.py:653} WARNING - No viable dags retrieved from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:48:29,348] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.091 seconds
+[2022-12-21 21:49:51,317] {processor.py:153} INFO - Started process (PID=17547) to work on /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:49:51,319] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-12-21 21:49:51,322] {logging_mixin.py:115} INFO - [2022-12-21 21:49:51,321] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:49:51,447] {logging_mixin.py:115} INFO - [2022-12-21 21:49:51,390] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-12-21 21:49:51,447] {logging_mixin.py:115} INFO - [2022-12-21 21:49:51,447] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-12-21 21:49:51,448] {processor.py:653} WARNING - No viable dags retrieved from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:49:51,465] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.159 seconds
+[2022-12-21 21:50:50,650] {processor.py:153} INFO - Started process (PID=17801) to work on /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:50:50,665] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-12-21 21:50:50,668] {logging_mixin.py:115} INFO - [2022-12-21 21:50:50,667] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:50:50,731] {logging_mixin.py:115} INFO - [2022-12-21 21:50:50,731] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-12-21 21:50:50,732] {logging_mixin.py:115} INFO - [2022-12-21 21:50:50,732] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-12-21 21:50:50,732] {processor.py:653} WARNING - No viable dags retrieved from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:50:50,747] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.113 seconds
+[2022-12-21 21:51:40,341] {processor.py:153} INFO - Started process (PID=17913) to work on /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:51:40,351] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-12-21 21:51:40,355] {logging_mixin.py:115} INFO - [2022-12-21 21:51:40,354] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:51:40,394] {logging_mixin.py:115} INFO - [2022-12-21 21:51:40,394] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-12-21 21:51:40,394] {logging_mixin.py:115} INFO - [2022-12-21 21:51:40,394] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-12-21 21:51:40,394] {processor.py:653} WARNING - No viable dags retrieved from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:51:40,410] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.088 seconds
+[2022-12-21 21:52:38,542] {processor.py:153} INFO - Started process (PID=18178) to work on /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:52:38,634] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-12-21 21:52:38,636] {logging_mixin.py:115} INFO - [2022-12-21 21:52:38,635] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:52:38,671] {logging_mixin.py:115} INFO - [2022-12-21 21:52:38,670] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-12-21 21:52:38,671] {logging_mixin.py:115} INFO - [2022-12-21 21:52:38,671] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-12-21 21:52:38,671] {processor.py:653} WARNING - No viable dags retrieved from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:52:38,687] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.151 seconds
+[2022-12-21 21:53:30,695] {processor.py:153} INFO - Started process (PID=18236) to work on /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:53:30,713] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-12-21 21:53:30,714] {logging_mixin.py:115} INFO - [2022-12-21 21:53:30,714] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:53:30,735] {logging_mixin.py:115} INFO - [2022-12-21 21:53:30,734] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-12-21 21:53:30,735] {logging_mixin.py:115} INFO - [2022-12-21 21:53:30,735] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-12-21 21:53:30,735] {processor.py:653} WARNING - No viable dags retrieved from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:53:30,748] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.059 seconds
+[2022-12-21 21:54:21,452] {processor.py:153} INFO - Started process (PID=18397) to work on /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:54:21,459] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-12-21 21:54:21,460] {logging_mixin.py:115} INFO - [2022-12-21 21:54:21,460] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:54:21,488] {logging_mixin.py:115} INFO - [2022-12-21 21:54:21,488] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-12-21 21:54:21,489] {logging_mixin.py:115} INFO - [2022-12-21 21:54:21,489] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-12-21 21:54:21,489] {processor.py:653} WARNING - No viable dags retrieved from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:54:21,506] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.059 seconds
+[2022-12-21 21:55:16,854] {processor.py:153} INFO - Started process (PID=18490) to work on /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:55:16,880] {processor.py:641} INFO - Processing file /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-12-21 21:55:16,881] {logging_mixin.py:115} INFO - [2022-12-21 21:55:16,881] {dagbag.py:507} INFO - Filling up the DagBag from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:55:16,905] {logging_mixin.py:115} INFO - [2022-12-21 21:55:16,905] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-12-21 21:55:16,906] {logging_mixin.py:115} INFO - [2022-12-21 21:55:16,905] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-12-21 21:55:16,906] {processor.py:653} WARNING - No viable dags retrieved from /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-12-21 21:55:16,919] {processor.py:161} INFO - Processing /home/nayara/Downloads/EngDados/ALURA/api_twitter/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.078 seconds
