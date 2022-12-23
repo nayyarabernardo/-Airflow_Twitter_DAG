@@ -40,5 +40,6 @@ pip install apache-airflow==1.10.12 \
 
 ## Links
 
-- [Documentation](https://airflow.apache.org/docs/stable/)
+- [Documentation Apache Airflow](https://airflow.apache.org/docs/stable/)
+- [Documentation API Twitter](https://developer.twitter.com/en/docs)
 - [More](https://cwiki.apache.org/confluence/display/AIRFLOW/Airflow+Links)
