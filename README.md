@@ -28,7 +28,7 @@ Apache Airflow is tested with:
 |              | Master version |
 | ------------ | -------------- |
 | Python       | 3.9            |
-| MySQL        | x.x            |
+| MySQL        | 8.0            |
 
 ## Instalação
 
