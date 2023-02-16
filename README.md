@@ -22,7 +22,7 @@ Use o Airflow para criar fluxos de trabalho como gráficos acíclicos direcionad
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 ## Arquitetura de referência
-
+![](referencia.jpg)
 
 ## Ferramentas Utilizadas
 
