@@ -21,14 +21,16 @@ Use o Airflow para criar fluxos de trabalho como gráficos acíclicos direcionad
 - [Links](#links)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+## Arquitetura de referência
+
 
 ## Ferramentas Utilizadas
-Apache Airflow is tested with:
+
 
 |              | Master version |
 | ------------ | -------------- |
 | Python       | 3.9            |
-| MySQL        | 8.0            |
+| Airflow      | 1.10.2         |
 
 ## Instalação
 
